@@ -24,5 +24,5 @@ export default function Home() {
       <h1>Welcome to WealthNest</h1>
       <p>Your Christian-friendly financial hub for young adults.</p>
     </main>
-  );
+    );
 }
