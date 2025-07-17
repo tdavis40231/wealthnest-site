@@ -10,8 +10,8 @@ export default function Blog({ posts }) {
       <ul>
         {posts.map(({ slug, title, date }) => (
           <li key={slug} className="mb-4">
-            <Link href={`/blog/${slug}`} className="text-blue-600 hover:underline">
-              {title}
+            <Link href={`/blog/${slug}`}>
+              <a className="text-blue-600 hover:underline">{title}</a>
             </Link>
             <br />
             <small className="text-gray-500">{date}</small>
